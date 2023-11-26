@@ -1,0 +1,43 @@
+----
+PER PENJAR AQUEST FITXER, HE FET UN COMMIT EXTRA, JA QUE L'HE PUJAT DES DEL TERMINAL, NO DES DE GITHUB, AIXÒ A CAUSA DE TREBALALR AMB UN COMPTE D'USUAR QUE TÉ LES CREDENCIALS DEL COLE (JA QUE TINC UN GITHUB PERSONAL), I AQUEST COMPTE EL TINC EN UN USUARI DIFERENT AL QUE FAIG SERVIR NORMALMENT, JA QUE TREBALLO DES D'ARCH LINUX, I AQUEST USUARI NO TÉ INTERFÍCIE GRÀFICA, SEMPRE ACCEDEIXO A ELL AMB "su - romasarca".
+----
+
+Apartat 1.)
+
+   A i B.) git checkout -b branca00
+   C.) git status
+
+Apartat 5.)
+   A.) git checkout main
+   B.) git status
+   C.) git log
+   D.) La diferència és que a la branca00 hi ha un commit en el qual no apareix en la branca main, el qual és el commit "Versió 1.1".
+
+Apartat 7.)
+   A.) git checkout branca00
+
+Apartat 10b.)
+   A.) git checkout main
+   B.) git merge branca00
+   C.) cat Prjava02.java
+   D.) git log
+
+Apartat 12.)
+   A.) git push
+ 
+Apartat 14.)
+   A.) git push -u origin branca01
+
+---
+
+Resposta apartat 6.)
+   A.) Com anteriorment he indicat, hi ha un commit a la branca00, el qual conté la línia modificada. Al no haver fet un push i un merge, i posteriorment fer un git pull a la branca main, no es pot veure el canvi.
+
+Resposta apartat 7.)
+   A.) Sí, a causa de que aquí (en aquesta branca) és on he modificat l'arxiu, i els canvis només estan guardats en el directori de treball.
+
+Resposta apartat 12.)
+   C.) Això és a causa de que he fet el git merge de la branca00 a la main.
+
+Resposta apartat 14.)
+   C.) Entenc que està a 1, això a causa de que només he fet un commit, si n'hagués fet més, apareixeria un número més gran, òbviament. A part, ho indica el GitHub.
